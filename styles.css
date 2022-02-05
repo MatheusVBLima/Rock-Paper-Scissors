@@ -22,6 +22,18 @@ header {
     border-bottom: 2px solid rgb(239, 213, 16);
 }
 
+.tips {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+.tips h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+}
+
 .flex-box {
     display: flex;
 }
