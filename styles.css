@@ -67,7 +67,14 @@ header {
 /* MOBILE */
 
 @media screen and (max-width: 900px) {
+    header {
+        font-size: 30px;
+    }
     .tips h2 {
         font-size: 28px;
+    }
+    .player-options img,
+    .enemy-options img {
+        margin: 10px 0 60px 0;
     }
 }
