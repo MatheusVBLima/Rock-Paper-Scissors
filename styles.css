@@ -18,6 +18,11 @@ body {
     flex-direction: column;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+}
+
 header {
     text-align: center;
     font-size: 26px;
@@ -66,15 +71,16 @@ header {
 
 /* MOBILE */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 913px) {
     header {
-        font-size: 30px;
+        font-size: 38px;
+        margin-bottom: 20px;
     }
     .tips h2 {
-        font-size: 28px;
+        font-size: 38px;
     }
     .player-options img,
     .enemy-options img {
-        margin: 10px 0 60px 0;
+        margin: 20px 0 60px 0;
     }
 }
