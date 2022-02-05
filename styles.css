@@ -13,6 +13,9 @@ body {
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to top, #414345, #232526);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    flex: 1;
+    flex-direction: column;
 }
 
 header {
@@ -58,4 +61,13 @@ header {
     text-align: center;
     font-size: 46px;
     font-weight: bold;
+}
+
+
+/* MOBILE */
+
+@media screen and (max-width: 900px) {
+    .tips h2 {
+        font-size: 28px;
+    }
 }
