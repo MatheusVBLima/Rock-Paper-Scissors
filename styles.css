@@ -69,15 +69,15 @@ header {
 @media screen and (max-width: 913px) {
     header {
         font-size: 18px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
     .tips h2 {
         font-size: 20px;
     }
     .player-options img,
     .enemy-options img {
-        max-width: 120px;
-        margin: 10px 0 24px 0;
+        max-width: 100px;
+        margin: 10px 0 20px 0;
     }
     .resultado {
         font-size: 28px;
